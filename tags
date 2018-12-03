@@ -1,0 +1,386 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BOOSTER_SOFT_START_CONTROL	main/include/epd1in54.h	39;"	d
+BORDER_WAVEFORM_CONTROL	main/include/epd1in54.h	53;"	d
+BUSY_PIN	main/include/epdif.h	42;"	d
+COLORED	main/main.cpp	41;"	d	file:
+CONFIG_ADC2_DISABLE_DAC	build/include/sdkconfig.h	114;"	d
+CONFIG_ADC_CAL_EFUSE_TP_ENABLE	build/include/sdkconfig.h	183;"	d
+CONFIG_ADC_CAL_EFUSE_VREF_ENABLE	build/include/sdkconfig.h	228;"	d
+CONFIG_ADC_CAL_LUT_ENABLE	build/include/sdkconfig.h	76;"	d
+CONFIG_BOOTLOADER_VDDSDIO_BOOST_1_9V	build/include/sdkconfig.h	163;"	d
+CONFIG_BOOTLOADER_WDT_ENABLE	build/include/sdkconfig.h	245;"	d
+CONFIG_BOOTLOADER_WDT_TIME_MS	build/include/sdkconfig.h	222;"	d
+CONFIG_BROWNOUT_DET	build/include/sdkconfig.h	185;"	d
+CONFIG_BROWNOUT_DET_LVL	build/include/sdkconfig.h	165;"	d
+CONFIG_BROWNOUT_DET_LVL_SEL_0	build/include/sdkconfig.h	32;"	d
+CONFIG_BTDM_CONTROLLER_BLE_MAX_CONN_EFF	build/include/sdkconfig.h	68;"	d
+CONFIG_BTDM_CONTROLLER_BR_EDR_MAX_ACL_CONN_EFF	build/include/sdkconfig.h	200;"	d
+CONFIG_BTDM_CONTROLLER_BR_EDR_MAX_SYNC_CONN_EFF	build/include/sdkconfig.h	139;"	d
+CONFIG_BTDM_CONTROLLER_PINNED_TO_CORE	build/include/sdkconfig.h	44;"	d
+CONFIG_BT_RESERVE_DRAM	build/include/sdkconfig.h	52;"	d
+CONFIG_CONSOLE_UART_BAUDRATE	build/include/sdkconfig.h	61;"	d
+CONFIG_CONSOLE_UART_DEFAULT	build/include/sdkconfig.h	92;"	d
+CONFIG_CONSOLE_UART_NUM	build/include/sdkconfig.h	85;"	d
+CONFIG_DMA_RX_BUF_NUM	build/include/sdkconfig.h	134;"	d
+CONFIG_DMA_TX_BUF_NUM	build/include/sdkconfig.h	208;"	d
+CONFIG_EMAC_CHECK_LINK_PERIOD_MS	build/include/sdkconfig.h	131;"	d
+CONFIG_EMAC_L2_TO_L3_RX_BUF_MODE	build/include/sdkconfig.h	34;"	d
+CONFIG_EMAC_TASK_PRIORITY	build/include/sdkconfig.h	64;"	d
+CONFIG_EMAC_TASK_STACK_SIZE	build/include/sdkconfig.h	157;"	d
+CONFIG_ESP32_APPTRACE_DEST_NONE	build/include/sdkconfig.h	168;"	d
+CONFIG_ESP32_APPTRACE_LOCK_ENABLE	build/include/sdkconfig.h	86;"	d
+CONFIG_ESP32_DEBUG_OCDAWARE	build/include/sdkconfig.h	212;"	d
+CONFIG_ESP32_DEBUG_STUBS_ENABLE	build/include/sdkconfig.h	219;"	d
+CONFIG_ESP32_DEEP_SLEEP_WAKEUP_DELAY	build/include/sdkconfig.h	164;"	d
+CONFIG_ESP32_DEFAULT_CPU_FREQ_160	build/include/sdkconfig.h	70;"	d
+CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ	build/include/sdkconfig.h	177;"	d
+CONFIG_ESP32_ENABLE_COREDUMP_TO_NONE	build/include/sdkconfig.h	97;"	d
+CONFIG_ESP32_PANIC_PRINT_REBOOT	build/include/sdkconfig.h	56;"	d
+CONFIG_ESP32_PHY_CALIBRATION_AND_DATA_STORAGE	build/include/sdkconfig.h	181;"	d
+CONFIG_ESP32_PHY_MAX_TX_POWER	build/include/sdkconfig.h	7;"	d
+CONFIG_ESP32_PHY_MAX_WIFI_TX_POWER	build/include/sdkconfig.h	126;"	d
+CONFIG_ESP32_PTHREAD_TASK_PRIO_DEFAULT	build/include/sdkconfig.h	199;"	d
+CONFIG_ESP32_PTHREAD_TASK_STACK_SIZE_DEFAULT	build/include/sdkconfig.h	254;"	d
+CONFIG_ESP32_RTC_CLK_CAL_CYCLES	build/include/sdkconfig.h	127;"	d
+CONFIG_ESP32_RTC_CLOCK_SOURCE_INTERNAL_RC	build/include/sdkconfig.h	88;"	d
+CONFIG_ESP32_TIME_SYSCALL_USE_RTC_FRC1	build/include/sdkconfig.h	142;"	d
+CONFIG_ESP32_WIFI_AMPDU_RX_ENABLED	build/include/sdkconfig.h	246;"	d
+CONFIG_ESP32_WIFI_AMPDU_TX_ENABLED	build/include/sdkconfig.h	237;"	d
+CONFIG_ESP32_WIFI_DYNAMIC_RX_BUFFER_NUM	build/include/sdkconfig.h	122;"	d
+CONFIG_ESP32_WIFI_DYNAMIC_TX_BUFFER	build/include/sdkconfig.h	33;"	d
+CONFIG_ESP32_WIFI_DYNAMIC_TX_BUFFER_NUM	build/include/sdkconfig.h	172;"	d
+CONFIG_ESP32_WIFI_NVS_ENABLED	build/include/sdkconfig.h	129;"	d
+CONFIG_ESP32_WIFI_RX_BA_WIN	build/include/sdkconfig.h	154;"	d
+CONFIG_ESP32_WIFI_SOFTAP_BEACON_MAX_LEN	build/include/sdkconfig.h	27;"	d
+CONFIG_ESP32_WIFI_STATIC_RX_BUFFER_NUM	build/include/sdkconfig.h	48;"	d
+CONFIG_ESP32_WIFI_TASK_PINNED_TO_CORE_0	build/include/sdkconfig.h	106;"	d
+CONFIG_ESP32_WIFI_TX_BA_WIN	build/include/sdkconfig.h	128;"	d
+CONFIG_ESP32_WIFI_TX_BUFFER_TYPE	build/include/sdkconfig.h	244;"	d
+CONFIG_ESP32_XTAL_FREQ	build/include/sdkconfig.h	186;"	d
+CONFIG_ESP32_XTAL_FREQ_40	build/include/sdkconfig.h	207;"	d
+CONFIG_ESPTOOLPY_AFTER	build/include/sdkconfig.h	204;"	d
+CONFIG_ESPTOOLPY_AFTER_RESET	build/include/sdkconfig.h	78;"	d
+CONFIG_ESPTOOLPY_BAUD	build/include/sdkconfig.h	74;"	d
+CONFIG_ESPTOOLPY_BAUD_115200B	build/include/sdkconfig.h	89;"	d
+CONFIG_ESPTOOLPY_BAUD_OTHER_VAL	build/include/sdkconfig.h	197;"	d
+CONFIG_ESPTOOLPY_BEFORE	build/include/sdkconfig.h	113;"	d
+CONFIG_ESPTOOLPY_BEFORE_RESET	build/include/sdkconfig.h	195;"	d
+CONFIG_ESPTOOLPY_COMPRESSED	build/include/sdkconfig.h	143;"	d
+CONFIG_ESPTOOLPY_FLASHFREQ	build/include/sdkconfig.h	21;"	d
+CONFIG_ESPTOOLPY_FLASHFREQ_40M	build/include/sdkconfig.h	40;"	d
+CONFIG_ESPTOOLPY_FLASHMODE	build/include/sdkconfig.h	110;"	d
+CONFIG_ESPTOOLPY_FLASHSIZE	build/include/sdkconfig.h	29;"	d
+CONFIG_ESPTOOLPY_FLASHSIZE_2MB	build/include/sdkconfig.h	42;"	d
+CONFIG_ESPTOOLPY_FLASHSIZE_DETECT	build/include/sdkconfig.h	95;"	d
+CONFIG_ESPTOOLPY_PORT	build/include/sdkconfig.h	258;"	d
+CONFIG_ESP_ERR_TO_NAME_LOOKUP	build/include/sdkconfig.h	193;"	d
+CONFIG_ESP_GRATUITOUS_ARP	build/include/sdkconfig.h	38;"	d
+CONFIG_ESP_HTTP_CLIENT_ENABLE_HTTPS	build/include/sdkconfig.h	123;"	d
+CONFIG_FATFS_CODEPAGE	build/include/sdkconfig.h	69;"	d
+CONFIG_FATFS_CODEPAGE_437	build/include/sdkconfig.h	15;"	d
+CONFIG_FATFS_FS_LOCK	build/include/sdkconfig.h	53;"	d
+CONFIG_FATFS_LFN_NONE	build/include/sdkconfig.h	11;"	d
+CONFIG_FATFS_PER_FILE_CACHE	build/include/sdkconfig.h	20;"	d
+CONFIG_FATFS_TIMEOUT_MS	build/include/sdkconfig.h	121;"	d
+CONFIG_FLASHMODE_DIO	build/include/sdkconfig.h	77;"	d
+CONFIG_FOUR_UNIVERSAL_MAC_ADDRESS	build/include/sdkconfig.h	91;"	d
+CONFIG_FREERTOS_ASSERT_FAIL_ABORT	build/include/sdkconfig.h	184;"	d
+CONFIG_FREERTOS_ASSERT_ON_UNTESTED_FUNCTION	build/include/sdkconfig.h	116;"	d
+CONFIG_FREERTOS_CHECK_STACKOVERFLOW_CANARY	build/include/sdkconfig.h	226;"	d
+CONFIG_FREERTOS_CORETIMER_0	build/include/sdkconfig.h	223;"	d
+CONFIG_FREERTOS_HZ	build/include/sdkconfig.h	179;"	d
+CONFIG_FREERTOS_IDLE_TASK_STACKSIZE	build/include/sdkconfig.h	83;"	d
+CONFIG_FREERTOS_INTERRUPT_BACKTRACE	build/include/sdkconfig.h	210;"	d
+CONFIG_FREERTOS_ISR_STACKSIZE	build/include/sdkconfig.h	231;"	d
+CONFIG_FREERTOS_MAX_TASK_NAME_LEN	build/include/sdkconfig.h	9;"	d
+CONFIG_FREERTOS_NO_AFFINITY	build/include/sdkconfig.h	236;"	d
+CONFIG_FREERTOS_QUEUE_REGISTRY_SIZE	build/include/sdkconfig.h	24;"	d
+CONFIG_FREERTOS_TASK_FUNCTION_WRAPPER	build/include/sdkconfig.h	161;"	d
+CONFIG_FREERTOS_THREAD_LOCAL_STORAGE_POINTERS	build/include/sdkconfig.h	45;"	d
+CONFIG_GARP_TMR_INTERVAL	build/include/sdkconfig.h	147;"	d
+CONFIG_HEAP_POISONING_DISABLED	build/include/sdkconfig.h	30;"	d
+CONFIG_HTTPD_MAX_REQ_HDR_LEN	build/include/sdkconfig.h	43;"	d
+CONFIG_HTTPD_MAX_URI_LEN	build/include/sdkconfig.h	173;"	d
+CONFIG_INT_WDT	build/include/sdkconfig.h	36;"	d
+CONFIG_INT_WDT_CHECK_CPU1	build/include/sdkconfig.h	75;"	d
+CONFIG_INT_WDT_TIMEOUT_MS	build/include/sdkconfig.h	109;"	d
+CONFIG_IPC_TASK_STACK_SIZE	build/include/sdkconfig.h	19;"	d
+CONFIG_IP_LOST_TIMER_INTERVAL	build/include/sdkconfig.h	54;"	d
+CONFIG_LIBSODIUM_USE_MBEDTLS_SHA	build/include/sdkconfig.h	133;"	d
+CONFIG_LOG_BOOTLOADER_LEVEL	build/include/sdkconfig.h	188;"	d
+CONFIG_LOG_BOOTLOADER_LEVEL_INFO	build/include/sdkconfig.h	41;"	d
+CONFIG_LOG_COLORS	build/include/sdkconfig.h	180;"	d
+CONFIG_LOG_DEFAULT_LEVEL	build/include/sdkconfig.h	115;"	d
+CONFIG_LOG_DEFAULT_LEVEL_INFO	build/include/sdkconfig.h	51;"	d
+CONFIG_LWIP_DHCPS_LEASE_UNIT	build/include/sdkconfig.h	100;"	d
+CONFIG_LWIP_DHCPS_MAX_STATION_NUM	build/include/sdkconfig.h	80;"	d
+CONFIG_LWIP_DHCP_DOES_ARP_CHECK	build/include/sdkconfig.h	160;"	d
+CONFIG_LWIP_DHCP_MAX_NTP_SERVERS	build/include/sdkconfig.h	148;"	d
+CONFIG_LWIP_LOOPBACK_MAX_PBUFS	build/include/sdkconfig.h	247;"	d
+CONFIG_LWIP_MAX_ACTIVE_TCP	build/include/sdkconfig.h	107;"	d
+CONFIG_LWIP_MAX_LISTENING_TCP	build/include/sdkconfig.h	209;"	d
+CONFIG_LWIP_MAX_RAW_PCBS	build/include/sdkconfig.h	190;"	d
+CONFIG_LWIP_MAX_SOCKETS	build/include/sdkconfig.h	62;"	d
+CONFIG_LWIP_MAX_UDP_PCBS	build/include/sdkconfig.h	73;"	d
+CONFIG_LWIP_NETIF_LOOPBACK	build/include/sdkconfig.h	63;"	d
+CONFIG_LWIP_SO_REUSE	build/include/sdkconfig.h	206;"	d
+CONFIG_LWIP_SO_REUSE_RXTOALL	build/include/sdkconfig.h	151;"	d
+CONFIG_MAIN_TASK_STACK_SIZE	build/include/sdkconfig.h	104;"	d
+CONFIG_MAKE_WARN_UNDEFINED_VARIABLES	build/include/sdkconfig.h	120;"	d
+CONFIG_MBEDTLS_AES_C	build/include/sdkconfig.h	25;"	d
+CONFIG_MBEDTLS_CCM_C	build/include/sdkconfig.h	124;"	d
+CONFIG_MBEDTLS_ECDH_C	build/include/sdkconfig.h	46;"	d
+CONFIG_MBEDTLS_ECDSA_C	build/include/sdkconfig.h	39;"	d
+CONFIG_MBEDTLS_ECP_C	build/include/sdkconfig.h	82;"	d
+CONFIG_MBEDTLS_ECP_DP_BP256R1_ENABLED	build/include/sdkconfig.h	174;"	d
+CONFIG_MBEDTLS_ECP_DP_BP384R1_ENABLED	build/include/sdkconfig.h	58;"	d
+CONFIG_MBEDTLS_ECP_DP_BP512R1_ENABLED	build/include/sdkconfig.h	240;"	d
+CONFIG_MBEDTLS_ECP_DP_CURVE25519_ENABLED	build/include/sdkconfig.h	67;"	d
+CONFIG_MBEDTLS_ECP_DP_SECP192K1_ENABLED	build/include/sdkconfig.h	252;"	d
+CONFIG_MBEDTLS_ECP_DP_SECP192R1_ENABLED	build/include/sdkconfig.h	239;"	d
+CONFIG_MBEDTLS_ECP_DP_SECP224K1_ENABLED	build/include/sdkconfig.h	175;"	d
+CONFIG_MBEDTLS_ECP_DP_SECP224R1_ENABLED	build/include/sdkconfig.h	132;"	d
+CONFIG_MBEDTLS_ECP_DP_SECP256K1_ENABLED	build/include/sdkconfig.h	59;"	d
+CONFIG_MBEDTLS_ECP_DP_SECP256R1_ENABLED	build/include/sdkconfig.h	217;"	d
+CONFIG_MBEDTLS_ECP_DP_SECP384R1_ENABLED	build/include/sdkconfig.h	135;"	d
+CONFIG_MBEDTLS_ECP_DP_SECP521R1_ENABLED	build/include/sdkconfig.h	26;"	d
+CONFIG_MBEDTLS_ECP_NIST_OPTIM	build/include/sdkconfig.h	141;"	d
+CONFIG_MBEDTLS_GCM_C	build/include/sdkconfig.h	28;"	d
+CONFIG_MBEDTLS_HARDWARE_AES	build/include/sdkconfig.h	178;"	d
+CONFIG_MBEDTLS_HAVE_TIME	build/include/sdkconfig.h	225;"	d
+CONFIG_MBEDTLS_INTERNAL_MEM_ALLOC	build/include/sdkconfig.h	169;"	d
+CONFIG_MBEDTLS_KEY_EXCHANGE_DHE_RSA	build/include/sdkconfig.h	171;"	d
+CONFIG_MBEDTLS_KEY_EXCHANGE_ECDHE_ECDSA	build/include/sdkconfig.h	138;"	d
+CONFIG_MBEDTLS_KEY_EXCHANGE_ECDHE_RSA	build/include/sdkconfig.h	159;"	d
+CONFIG_MBEDTLS_KEY_EXCHANGE_ECDH_ECDSA	build/include/sdkconfig.h	241;"	d
+CONFIG_MBEDTLS_KEY_EXCHANGE_ECDH_RSA	build/include/sdkconfig.h	112;"	d
+CONFIG_MBEDTLS_KEY_EXCHANGE_ELLIPTIC_CURVE	build/include/sdkconfig.h	47;"	d
+CONFIG_MBEDTLS_KEY_EXCHANGE_RSA	build/include/sdkconfig.h	22;"	d
+CONFIG_MBEDTLS_PEM_PARSE_C	build/include/sdkconfig.h	166;"	d
+CONFIG_MBEDTLS_PEM_WRITE_C	build/include/sdkconfig.h	50;"	d
+CONFIG_MBEDTLS_RC4_DISABLED	build/include/sdkconfig.h	84;"	d
+CONFIG_MBEDTLS_SSL_ALPN	build/include/sdkconfig.h	49;"	d
+CONFIG_MBEDTLS_SSL_MAX_CONTENT_LEN	build/include/sdkconfig.h	93;"	d
+CONFIG_MBEDTLS_SSL_PROTO_TLS1	build/include/sdkconfig.h	37;"	d
+CONFIG_MBEDTLS_SSL_PROTO_TLS1_1	build/include/sdkconfig.h	150;"	d
+CONFIG_MBEDTLS_SSL_PROTO_TLS1_2	build/include/sdkconfig.h	170;"	d
+CONFIG_MBEDTLS_SSL_RENEGOTIATION	build/include/sdkconfig.h	194;"	d
+CONFIG_MBEDTLS_SSL_SESSION_TICKETS	build/include/sdkconfig.h	191;"	d
+CONFIG_MBEDTLS_TLS_CLIENT	build/include/sdkconfig.h	216;"	d
+CONFIG_MBEDTLS_TLS_ENABLED	build/include/sdkconfig.h	189;"	d
+CONFIG_MBEDTLS_TLS_SERVER	build/include/sdkconfig.h	229;"	d
+CONFIG_MBEDTLS_TLS_SERVER_AND_CLIENT	build/include/sdkconfig.h	230;"	d
+CONFIG_MBEDTLS_X509_CRL_PARSE_C	build/include/sdkconfig.h	98;"	d
+CONFIG_MBEDTLS_X509_CSR_PARSE_C	build/include/sdkconfig.h	155;"	d
+CONFIG_MB_CONTROLLER_NOTIFY_QUEUE_SIZE	build/include/sdkconfig.h	57;"	d
+CONFIG_MB_CONTROLLER_NOTIFY_TIMEOUT	build/include/sdkconfig.h	152;"	d
+CONFIG_MB_CONTROLLER_STACK_SIZE	build/include/sdkconfig.h	145;"	d
+CONFIG_MB_EVENT_QUEUE_TIMEOUT	build/include/sdkconfig.h	196;"	d
+CONFIG_MB_QUEUE_LENGTH	build/include/sdkconfig.h	158;"	d
+CONFIG_MB_SERIAL_BUF_SIZE	build/include/sdkconfig.h	60;"	d
+CONFIG_MB_SERIAL_TASK_PRIO	build/include/sdkconfig.h	12;"	d
+CONFIG_MB_SERIAL_TASK_STACK_SIZE	build/include/sdkconfig.h	99;"	d
+CONFIG_MB_TIMER_GROUP	build/include/sdkconfig.h	248;"	d
+CONFIG_MB_TIMER_INDEX	build/include/sdkconfig.h	238;"	d
+CONFIG_MB_TIMER_PORT_ENABLED	build/include/sdkconfig.h	255;"	d
+CONFIG_MB_UART_RTS	build/include/sdkconfig.h	137;"	d
+CONFIG_MB_UART_RXD	build/include/sdkconfig.h	72;"	d
+CONFIG_MB_UART_TXD	build/include/sdkconfig.h	213;"	d
+CONFIG_MDNS_MAX_SERVICES	build/include/sdkconfig.h	130;"	d
+CONFIG_MONITOR_BAUD	build/include/sdkconfig.h	218;"	d
+CONFIG_MONITOR_BAUD_115200B	build/include/sdkconfig.h	187;"	d
+CONFIG_MONITOR_BAUD_OTHER_VAL	build/include/sdkconfig.h	256;"	d
+CONFIG_MQTT_PROTOCOL_311	build/include/sdkconfig.h	13;"	d
+CONFIG_MQTT_TRANSPORT_SSL	build/include/sdkconfig.h	10;"	d
+CONFIG_MQTT_TRANSPORT_WEBSOCKET	build/include/sdkconfig.h	214;"	d
+CONFIG_MQTT_TRANSPORT_WEBSOCKET_SECURE	build/include/sdkconfig.h	250;"	d
+CONFIG_NEWLIB_STDIN_LINE_ENDING_CR	build/include/sdkconfig.h	111;"	d
+CONFIG_NEWLIB_STDOUT_LINE_ENDING_CRLF	build/include/sdkconfig.h	257;"	d
+CONFIG_NUMBER_OF_UNIVERSAL_MAC_ADDRESS	build/include/sdkconfig.h	94;"	d
+CONFIG_OPENSSL_ASSERT_DO_NOTHING	build/include/sdkconfig.h	233;"	d
+CONFIG_OPTIMIZATION_ASSERTIONS_ENABLED	build/include/sdkconfig.h	79;"	d
+CONFIG_OPTIMIZATION_LEVEL_DEBUG	build/include/sdkconfig.h	235;"	d
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME	build/include/sdkconfig.h	224;"	d
+CONFIG_PARTITION_TABLE_FILENAME	build/include/sdkconfig.h	144;"	d
+CONFIG_PARTITION_TABLE_MD5	build/include/sdkconfig.h	201;"	d
+CONFIG_PARTITION_TABLE_OFFSET	build/include/sdkconfig.h	17;"	d
+CONFIG_PARTITION_TABLE_SINGLE_APP	build/include/sdkconfig.h	153;"	d
+CONFIG_PTHREAD_STACK_MIN	build/include/sdkconfig.h	87;"	d
+CONFIG_PYTHON	build/include/sdkconfig.h	140;"	d
+CONFIG_REDUCE_PHY_TX_POWER	build/include/sdkconfig.h	221;"	d
+CONFIG_SPIFFS_CACHE	build/include/sdkconfig.h	35;"	d
+CONFIG_SPIFFS_CACHE_WR	build/include/sdkconfig.h	31;"	d
+CONFIG_SPIFFS_GC_MAX_RUNS	build/include/sdkconfig.h	167;"	d
+CONFIG_SPIFFS_MAX_PARTITIONS	build/include/sdkconfig.h	192;"	d
+CONFIG_SPIFFS_META_LENGTH	build/include/sdkconfig.h	55;"	d
+CONFIG_SPIFFS_OBJ_NAME_LEN	build/include/sdkconfig.h	198;"	d
+CONFIG_SPIFFS_PAGE_CHECK	build/include/sdkconfig.h	105;"	d
+CONFIG_SPIFFS_PAGE_SIZE	build/include/sdkconfig.h	251;"	d
+CONFIG_SPIFFS_USE_MAGIC	build/include/sdkconfig.h	101;"	d
+CONFIG_SPIFFS_USE_MAGIC_LENGTH	build/include/sdkconfig.h	18;"	d
+CONFIG_SPIFFS_USE_MTIME	build/include/sdkconfig.h	156;"	d
+CONFIG_SPI_FLASH_ROM_DRIVER_PATCH	build/include/sdkconfig.h	249;"	d
+CONFIG_SPI_FLASH_WRITING_DANGEROUS_REGIONS_ABORTS	build/include/sdkconfig.h	259;"	d
+CONFIG_SPI_MASTER_ISR_IN_IRAM	build/include/sdkconfig.h	125;"	d
+CONFIG_SPI_SLAVE_ISR_IN_IRAM	build/include/sdkconfig.h	242;"	d
+CONFIG_STACK_CHECK_NONE	build/include/sdkconfig.h	182;"	d
+CONFIG_SUPPORT_TERMIOS	build/include/sdkconfig.h	232;"	d
+CONFIG_SUPPRESS_SELECT_DEBUG_OUTPUT	build/include/sdkconfig.h	118;"	d
+CONFIG_SYSTEM_EVENT_QUEUE_SIZE	build/include/sdkconfig.h	243;"	d
+CONFIG_SYSTEM_EVENT_TASK_STACK_SIZE	build/include/sdkconfig.h	162;"	d
+CONFIG_TASK_WDT	build/include/sdkconfig.h	103;"	d
+CONFIG_TASK_WDT_CHECK_IDLE_TASK_CPU0	build/include/sdkconfig.h	253;"	d
+CONFIG_TASK_WDT_CHECK_IDLE_TASK_CPU1	build/include/sdkconfig.h	176;"	d
+CONFIG_TASK_WDT_TIMEOUT_S	build/include/sdkconfig.h	108;"	d
+CONFIG_TCPIP_LWIP	build/include/sdkconfig.h	220;"	d
+CONFIG_TCPIP_RECVMBOX_SIZE	build/include/sdkconfig.h	202;"	d
+CONFIG_TCPIP_TASK_AFFINITY	build/include/sdkconfig.h	205;"	d
+CONFIG_TCPIP_TASK_AFFINITY_NO_AFFINITY	build/include/sdkconfig.h	119;"	d
+CONFIG_TCPIP_TASK_STACK_SIZE	build/include/sdkconfig.h	102;"	d
+CONFIG_TCP_MAXRTX	build/include/sdkconfig.h	203;"	d
+CONFIG_TCP_MSL	build/include/sdkconfig.h	149;"	d
+CONFIG_TCP_MSS	build/include/sdkconfig.h	66;"	d
+CONFIG_TCP_OVERSIZE_MSS	build/include/sdkconfig.h	90;"	d
+CONFIG_TCP_QUEUE_OOSEQ	build/include/sdkconfig.h	227;"	d
+CONFIG_TCP_RECVMBOX_SIZE	build/include/sdkconfig.h	14;"	d
+CONFIG_TCP_SND_BUF_DEFAULT	build/include/sdkconfig.h	146;"	d
+CONFIG_TCP_SYNMAXRTX	build/include/sdkconfig.h	136;"	d
+CONFIG_TCP_WND_DEFAULT	build/include/sdkconfig.h	16;"	d
+CONFIG_TIMER_QUEUE_LENGTH	build/include/sdkconfig.h	117;"	d
+CONFIG_TIMER_TASK_PRIORITY	build/include/sdkconfig.h	215;"	d
+CONFIG_TIMER_TASK_STACK_DEPTH	build/include/sdkconfig.h	65;"	d
+CONFIG_TIMER_TASK_STACK_SIZE	build/include/sdkconfig.h	96;"	d
+CONFIG_TOOLPREFIX	build/include/sdkconfig.h	81;"	d
+CONFIG_TRACEMEM_RESERVE_DRAM	build/include/sdkconfig.h	8;"	d
+CONFIG_UDP_RECVMBOX_SIZE	build/include/sdkconfig.h	23;"	d
+CONFIG_ULP_COPROC_RESERVE_MEM	build/include/sdkconfig.h	71;"	d
+CONFIG_WL_SECTOR_SIZE	build/include/sdkconfig.h	211;"	d
+CONFIG_WL_SECTOR_SIZE_4096	build/include/sdkconfig.h	234;"	d
+CS_PIN	main/include/epdif.h	41;"	d
+Clear	main/epdpaint.cpp	/^void Paint::Clear(int colored) {$/;"	f	class:Paint
+ClearFrameMemory	main/epd1in54.cpp	/^void Epd::ClearFrameMemory(unsigned char color) {$/;"	f	class:Epd
+DATA_ENTRY_MODE_SETTING	main/include/epd1in54.h	42;"	d
+DC_PIN	main/epdif.cpp	39;"	d	file:
+DC_PIN	main/include/epdif.h	40;"	d
+DEEP_SLEEP_MODE	main/include/epd1in54.h	41;"	d
+DISPLAY_UPDATE_CONTROL_1	main/include/epd1in54.h	46;"	d
+DISPLAY_UPDATE_CONTROL_2	main/include/epd1in54.h	47;"	d
+DRIVER_OUTPUT_CONTROL	main/include/epd1in54.h	38;"	d
+DelayMs	main/epdif.cpp	/^void EpdIf::DelayMs(unsigned int delaytime) {$/;"	f	class:EpdIf
+DigitalRead	main/epdif.cpp	/^int EpdIf::DigitalRead(int pin) {$/;"	f	class:EpdIf
+DigitalWrite	main/epdif.cpp	/^void EpdIf::DigitalWrite(int pin, int value) {$/;"	f	class:EpdIf
+DisplayFrame	main/epd1in54.cpp	/^void Epd::DisplayFrame(void) {$/;"	f	class:Epd
+DrawAbsolutePixel	main/epdpaint.cpp	/^void Paint::DrawAbsolutePixel(int x, int y, int colored) {$/;"	f	class:Paint
+DrawCharAt	main/epdpaint.cpp	/^void Paint::DrawCharAt(int x, int y, char ascii_char, sFONT* font, int colored) {$/;"	f	class:Paint
+DrawCircle	main/epdpaint.cpp	/^void Paint::DrawCircle(int x, int y, int radius, int colored) {$/;"	f	class:Paint
+DrawFilledCircle	main/epdpaint.cpp	/^void Paint::DrawFilledCircle(int x, int y, int radius, int colored) {$/;"	f	class:Paint
+DrawFilledRectangle	main/epdpaint.cpp	/^void Paint::DrawFilledRectangle(int x0, int y0, int x1, int y1, int colored) {$/;"	f	class:Paint
+DrawHorizontalLine	main/epdpaint.cpp	/^void Paint::DrawHorizontalLine(int x, int y, int line_width, int colored) {$/;"	f	class:Paint
+DrawLine	main/epdpaint.cpp	/^void Paint::DrawLine(int x0, int y0, int x1, int y1, int colored) {$/;"	f	class:Paint
+DrawPixel	main/epdpaint.cpp	/^void Paint::DrawPixel(int x, int y, int colored) {$/;"	f	class:Paint
+DrawRectangle	main/epdpaint.cpp	/^void Paint::DrawRectangle(int x0, int y0, int x1, int y1, int colored) {$/;"	f	class:Paint
+DrawStringAt	main/epdpaint.cpp	/^void Paint::DrawStringAt(int x, int y, const char* text, sFONT* font, int colored) {$/;"	f	class:Paint
+DrawVerticalLine	main/epdpaint.cpp	/^void Paint::DrawVerticalLine(int x, int y, int line_height, int colored) {$/;"	f	class:Paint
+EPD1IN54_H	main/include/epd1in54.h	29;"	d
+EPDIF_H	main/include/epdif.h	36;"	d
+EPDPAINT_H	main/include/epdpaint.h	28;"	d
+EPD_HEIGHT	main/include/epd1in54.h	35;"	d
+EPD_WIDTH	main/include/epd1in54.h	34;"	d
+Epd	main/epd1in54.cpp	/^Epd::Epd() {$/;"	f	class:Epd
+Epd	main/include/epd1in54.h	/^class Epd : public EpdIf {$/;"	c
+EpdIf	main/epdif.cpp	/^EpdIf::EpdIf() {$/;"	f	class:EpdIf
+EpdIf	main/include/epdif.h	/^class EpdIf {$/;"	c
+Font12	main/font12.c	/^sFONT Font12 = {$/;"	v
+Font12_Table	main/font12.c	/^const uint8_t Font12_Table[] = $/;"	v
+Font16	main/font16.c	/^sFONT Font16 = {$/;"	v
+Font16_Table	main/font16.c	/^const uint8_t Font16_Table[] = $/;"	v
+Font20	main/font20.c	/^sFONT Font20 = {$/;"	v
+Font20_Table	main/font20.c	/^const uint8_t Font20_Table[] = $/;"	v
+Font24	main/font24.c	/^sFONT Font24 = {$/;"	v
+Font24_Table	main/font24.c	/^const uint8_t Font24_Table [] = $/;"	v
+Font8	main/font8.c	/^sFONT Font8 = {$/;"	v
+Font8_Table	main/font8.c	/^const uint8_t Font8_Table[] = $/;"	v
+GATE_SCAN_START_POSITION	main/include/epd1in54.h	40;"	d
+GetHeight	main/epdpaint.cpp	/^int Paint::GetHeight(void) {$/;"	f	class:Paint
+GetImage	main/epdpaint.cpp	/^unsigned char* Paint::GetImage(void) {$/;"	f	class:Paint
+GetRotate	main/epdpaint.cpp	/^int Paint::GetRotate(void) {$/;"	f	class:Paint
+GetWidth	main/epdpaint.cpp	/^int Paint::GetWidth(void) {$/;"	f	class:Paint
+HIGH	main/include/epdif.h	46;"	d
+Height	main/include/fonts.h	/^  uint16_t Height;$/;"	m	struct:_tFont
+IF_INVERT_COLOR	main/include/epdpaint.h	37;"	d
+IMAGE_DATA	main/imagedata.cpp	/^const unsigned char IMAGE_DATA[] = {$/;"	v
+IfInit	main/epdif.cpp	/^int EpdIf::IfInit(void) {$/;"	f	class:EpdIf
+Init	main/epd1in54.cpp	/^int Epd::Init(const unsigned char* lut) {$/;"	f	class:Epd
+LOW	main/include/epdif.h	45;"	d
+MASTER_ACTIVATION	main/include/epd1in54.h	45;"	d
+MAX_HEIGHT_FONT	main/include/fonts.h	43;"	d
+MAX_WIDTH_FONT	main/include/fonts.h	44;"	d
+OFFSET_BITMAP	main/include/fonts.h	45;"	d
+PROJECT_NAME	Makefile	/^PROJECT_NAME := main$/;"	m
+Paint	main/epdpaint.cpp	/^Paint::Paint(unsigned char* image, int width, int height) {$/;"	f	class:Paint
+Paint	main/include/epdpaint.h	/^class Paint {$/;"	c
+ROTATE_0	main/include/epdpaint.h	31;"	d
+ROTATE_180	main/include/epdpaint.h	33;"	d
+ROTATE_270	main/include/epdpaint.h	34;"	d
+ROTATE_90	main/include/epdpaint.h	32;"	d
+RST_PIN	main/include/epdif.h	39;"	d
+Reset	main/epd1in54.cpp	/^void Epd::Reset(void) {$/;"	f	class:Epd
+SET_DUMMY_LINE_PERIOD	main/include/epd1in54.h	51;"	d
+SET_GATE_TIME	main/include/epd1in54.h	52;"	d
+SET_RAM_X_ADDRESS_COUNTER	main/include/epd1in54.h	56;"	d
+SET_RAM_X_ADDRESS_START_END_POSITION	main/include/epd1in54.h	54;"	d
+SET_RAM_Y_ADDRESS_COUNTER	main/include/epd1in54.h	57;"	d
+SET_RAM_Y_ADDRESS_START_END_POSITION	main/include/epd1in54.h	55;"	d
+SPI_CLK_PIN	main/epdif.cpp	37;"	d	file:
+SPI_CS_PIN	main/epdif.cpp	38;"	d	file:
+SPI_MOSI_PIN	main/epdif.cpp	36;"	d	file:
+SW_RESET	main/include/epd1in54.h	43;"	d
+SendCommand	main/epd1in54.cpp	/^void Epd::SendCommand(unsigned char command) {$/;"	f	class:Epd
+SendData	main/epd1in54.cpp	/^void Epd::SendData(unsigned char data) {$/;"	f	class:Epd
+SetFrameMemory	main/epd1in54.cpp	/^void Epd::SetFrameMemory($/;"	f	class:Epd
+SetHeight	main/epdpaint.cpp	/^void Paint::SetHeight(int height) {$/;"	f	class:Paint
+SetLut	main/epd1in54.cpp	/^void Epd::SetLut(const unsigned char* lut) {$/;"	f	class:Epd
+SetMemoryArea	main/epd1in54.cpp	/^void Epd::SetMemoryArea(int x_start, int y_start, int x_end, int y_end) {$/;"	f	class:Epd
+SetMemoryPointer	main/epd1in54.cpp	/^void Epd::SetMemoryPointer(int x, int y) {$/;"	f	class:Epd
+SetRotate	main/epdpaint.cpp	/^void Paint::SetRotate(int rotate){$/;"	f	class:Paint
+SetWidth	main/epdpaint.cpp	/^void Paint::SetWidth(int width) {$/;"	f	class:Paint
+Sleep	main/epd1in54.cpp	/^void Epd::Sleep() {$/;"	f	class:Epd
+SpiTransfer	main/epdif.cpp	/^void EpdIf::SpiTransfer(unsigned char data) {$/;"	f	class:EpdIf
+TEMPERATURE_SENSOR_CONTROL	main/include/epd1in54.h	44;"	d
+TERMINATE_FRAME_READ_WRITE	main/include/epd1in54.h	58;"	d
+UNCOLORED	main/main.cpp	42;"	d	file:
+WRITE_LUT_REGISTER	main/include/epd1in54.h	50;"	d
+WRITE_RAM	main/include/epd1in54.h	48;"	d
+WRITE_VCOM_REGISTER	main/include/epd1in54.h	49;"	d
+WaitUntilIdle	main/epd1in54.cpp	/^void Epd::WaitUntilIdle(void) {$/;"	f	class:Epd
+Width	main/include/fonts.h	/^  uint16_t Width;$/;"	m	struct:_tFont
+__FONTS_H	main/include/fonts.h	40;"	d
+_tFont	main/include/fonts.h	/^typedef struct _tFont$/;"	s
+app_main	main/main.cpp	/^extern "C" void app_main()$/;"	f
+bus_config	main/include/epdif.h	/^	spi_bus_config_t bus_config;$/;"	m	class:EpdIf
+busy_pin	main/include/epd1in54.h	/^    unsigned int busy_pin;$/;"	m	class:Epd
+cs_pin	main/include/epd1in54.h	/^    unsigned int cs_pin;$/;"	m	class:Epd
+dc_pin	main/include/epd1in54.h	/^    unsigned int dc_pin;$/;"	m	class:Epd
+dev_config	main/include/epdif.h	/^	spi_device_interface_config_t dev_config;$/;"	m	class:EpdIf
+handle	main/include/epdif.h	/^	spi_device_handle_t handle;$/;"	m	class:EpdIf
+height	main/include/epd1in54.h	/^    int height;$/;"	m	class:Epd
+height	main/include/epdpaint.h	/^    int height;$/;"	m	class:Paint
+image	main/include/epdpaint.h	/^    unsigned char* image;$/;"	m	class:Paint
+lut	main/include/epd1in54.h	/^    const unsigned char* lut;$/;"	m	class:Epd
+lut_full_update	main/epd1in54.cpp	/^const unsigned char lut_full_update[] =$/;"	v
+lut_partial_update	main/epd1in54.cpp	/^const unsigned char lut_partial_update[] =$/;"	v
+reset_pin	main/include/epd1in54.h	/^    unsigned int reset_pin;$/;"	m	class:Epd
+rotate	main/include/epdpaint.h	/^    int rotate;$/;"	m	class:Paint
+sFONT	main/include/fonts.h	/^} sFONT;$/;"	t	typeref:struct:_tFont
+table	main/include/fonts.h	/^  const uint8_t *table;$/;"	m	struct:_tFont
+trans_desc	main/include/epdif.h	/^	spi_transaction_t trans_desc;$/;"	m	class:EpdIf
+width	main/include/epd1in54.h	/^    int width;$/;"	m	class:Epd
+width	main/include/epdpaint.h	/^    int width;$/;"	m	class:Paint
+~Epd	main/epd1in54.cpp	/^Epd::~Epd() {$/;"	f	class:Epd
+~EpdIf	main/epdif.cpp	/^EpdIf::~EpdIf() {$/;"	f	class:EpdIf
+~Paint	main/epdpaint.cpp	/^Paint::~Paint() {$/;"	f	class:Paint
