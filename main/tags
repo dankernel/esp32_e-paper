@@ -1,0 +1,126 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BOOSTER_SOFT_START_CONTROL	include/epd1in54.h	39;"	d
+BORDER_WAVEFORM_CONTROL	include/epd1in54.h	53;"	d
+COLORED	main.cpp	40;"	d	file:
+CS_PIN	include/epdif.h	39;"	d
+Clear	epdpaint.cpp	/^void Paint::Clear(int colored) {$/;"	f	class:Paint
+ClearFrameMemory	epd1in54.cpp	/^void Epd::ClearFrameMemory(unsigned char color) {$/;"	f	class:Epd
+DATA_ENTRY_MODE_SETTING	include/epd1in54.h	42;"	d
+DC_PIN	epdif.cpp	39;"	d	file:
+DC_PIN	include/epdif.h	38;"	d
+DEEP_SLEEP_MODE	include/epd1in54.h	41;"	d
+DISPLAY_UPDATE_CONTROL_1	include/epd1in54.h	46;"	d
+DISPLAY_UPDATE_CONTROL_2	include/epd1in54.h	47;"	d
+DRIVER_OUTPUT_CONTROL	include/epd1in54.h	38;"	d
+DelayMs	epdif.cpp	/^void EpdIf::DelayMs(unsigned int delaytime) {$/;"	f	class:EpdIf
+DigitalRead	epdif.cpp	/^int EpdIf::DigitalRead(int pin) {$/;"	f	class:EpdIf
+DigitalWrite	epdif.cpp	/^void EpdIf::DigitalWrite(int pin, int value) {$/;"	f	class:EpdIf
+DisplayFrame	epd1in54.cpp	/^void Epd::DisplayFrame(void) {$/;"	f	class:Epd
+DrawAbsolutePixel	epdpaint.cpp	/^void Paint::DrawAbsolutePixel(int x, int y, int colored) {$/;"	f	class:Paint
+DrawCharAt	epdpaint.cpp	/^void Paint::DrawCharAt(int x, int y, char ascii_char, sFONT* font, int colored) {$/;"	f	class:Paint
+DrawCircle	epdpaint.cpp	/^void Paint::DrawCircle(int x, int y, int radius, int colored) {$/;"	f	class:Paint
+DrawFilledCircle	epdpaint.cpp	/^void Paint::DrawFilledCircle(int x, int y, int radius, int colored) {$/;"	f	class:Paint
+DrawFilledRectangle	epdpaint.cpp	/^void Paint::DrawFilledRectangle(int x0, int y0, int x1, int y1, int colored) {$/;"	f	class:Paint
+DrawHorizontalLine	epdpaint.cpp	/^void Paint::DrawHorizontalLine(int x, int y, int line_width, int colored) {$/;"	f	class:Paint
+DrawLine	epdpaint.cpp	/^void Paint::DrawLine(int x0, int y0, int x1, int y1, int colored) {$/;"	f	class:Paint
+DrawPixel	epdpaint.cpp	/^void Paint::DrawPixel(int x, int y, int colored) {$/;"	f	class:Paint
+DrawRectangle	epdpaint.cpp	/^void Paint::DrawRectangle(int x0, int y0, int x1, int y1, int colored) {$/;"	f	class:Paint
+DrawStringAt	epdpaint.cpp	/^void Paint::DrawStringAt(int x, int y, const char* text, sFONT* font, int colored) {$/;"	f	class:Paint
+DrawVerticalLine	epdpaint.cpp	/^void Paint::DrawVerticalLine(int x, int y, int line_height, int colored) {$/;"	f	class:Paint
+EPD1IN54_H	include/epd1in54.h	29;"	d
+EPDIF_H	include/epdif.h	35;"	d
+EPDPAINT_H	include/epdpaint.h	28;"	d
+EPD_HEIGHT	include/epd1in54.h	35;"	d
+EPD_WIDTH	include/epd1in54.h	34;"	d
+Epd	epd1in54.cpp	/^Epd::Epd() {$/;"	f	class:Epd
+Epd	include/epd1in54.h	/^class Epd : public EpdIf {$/;"	c
+EpdIf	epdif.cpp	/^EpdIf::EpdIf() {$/;"	f	class:EpdIf
+EpdIf	include/epdif.h	/^class EpdIf {$/;"	c
+Font12	font12.c	/^sFONT Font12 = {$/;"	v
+Font12_Table	font12.c	/^const uint8_t Font12_Table[] = $/;"	v
+Font16	font16.c	/^sFONT Font16 = {$/;"	v
+Font16_Table	font16.c	/^const uint8_t Font16_Table[] = $/;"	v
+Font20	font20.c	/^sFONT Font20 = {$/;"	v
+Font20_Table	font20.c	/^const uint8_t Font20_Table[] = $/;"	v
+Font24	font24.c	/^sFONT Font24 = {$/;"	v
+Font24_Table	font24.c	/^const uint8_t Font24_Table [] = $/;"	v
+Font8	font8.c	/^sFONT Font8 = {$/;"	v
+Font8_Table	font8.c	/^const uint8_t Font8_Table[] = $/;"	v
+GATE_SCAN_START_POSITION	include/epd1in54.h	40;"	d
+GetHeight	epdpaint.cpp	/^int Paint::GetHeight(void) {$/;"	f	class:Paint
+GetImage	epdpaint.cpp	/^unsigned char* Paint::GetImage(void) {$/;"	f	class:Paint
+GetRotate	epdpaint.cpp	/^int Paint::GetRotate(void) {$/;"	f	class:Paint
+GetWidth	epdpaint.cpp	/^int Paint::GetWidth(void) {$/;"	f	class:Paint
+HIGH	include/epdif.h	43;"	d
+Height	include/fonts.h	/^  uint16_t Height;$/;"	m	struct:_tFont
+IF_INVERT_COLOR	include/epdpaint.h	37;"	d
+IMAGE_DATA	imagedata.cpp	/^const unsigned char IMAGE_DATA[] = {$/;"	v
+IfInit	epdif.cpp	/^int EpdIf::IfInit(void) {$/;"	f	class:EpdIf
+Init	epd1in54.cpp	/^int Epd::Init(const unsigned char* lut) {$/;"	f	class:Epd
+LOW	include/epdif.h	42;"	d
+MASTER_ACTIVATION	include/epd1in54.h	45;"	d
+MAX_HEIGHT_FONT	include/fonts.h	43;"	d
+MAX_WIDTH_FONT	include/fonts.h	44;"	d
+OFFSET_BITMAP	include/fonts.h	45;"	d
+Paint	epdpaint.cpp	/^Paint::Paint(unsigned char* image, int width, int height) {$/;"	f	class:Paint
+Paint	include/epdpaint.h	/^class Paint {$/;"	c
+ROTATE_0	include/epdpaint.h	31;"	d
+ROTATE_180	include/epdpaint.h	33;"	d
+ROTATE_270	include/epdpaint.h	34;"	d
+ROTATE_90	include/epdpaint.h	32;"	d
+SET_DUMMY_LINE_PERIOD	include/epd1in54.h	51;"	d
+SET_GATE_TIME	include/epd1in54.h	52;"	d
+SET_RAM_X_ADDRESS_COUNTER	include/epd1in54.h	56;"	d
+SET_RAM_X_ADDRESS_START_END_POSITION	include/epd1in54.h	54;"	d
+SET_RAM_Y_ADDRESS_COUNTER	include/epd1in54.h	57;"	d
+SET_RAM_Y_ADDRESS_START_END_POSITION	include/epd1in54.h	55;"	d
+SPI_CLK_PIN	epdif.cpp	37;"	d	file:
+SPI_CS_PIN	epdif.cpp	38;"	d	file:
+SPI_MOSI_PIN	epdif.cpp	36;"	d	file:
+SW_RESET	include/epd1in54.h	43;"	d
+SendCommand	epd1in54.cpp	/^void Epd::SendCommand(unsigned char command) {$/;"	f	class:Epd
+SendData	epd1in54.cpp	/^void Epd::SendData(unsigned char data) {$/;"	f	class:Epd
+SetFrameMemory	epd1in54.cpp	/^void Epd::SetFrameMemory($/;"	f	class:Epd
+SetHeight	epdpaint.cpp	/^void Paint::SetHeight(int height) {$/;"	f	class:Paint
+SetLut	epd1in54.cpp	/^void Epd::SetLut(const unsigned char* lut) {$/;"	f	class:Epd
+SetMemoryArea	epd1in54.cpp	/^void Epd::SetMemoryArea(int x_start, int y_start, int x_end, int y_end) {$/;"	f	class:Epd
+SetMemoryPointer	epd1in54.cpp	/^void Epd::SetMemoryPointer(int x, int y) {$/;"	f	class:Epd
+SetRotate	epdpaint.cpp	/^void Paint::SetRotate(int rotate){$/;"	f	class:Paint
+SetWidth	epdpaint.cpp	/^void Paint::SetWidth(int width) {$/;"	f	class:Paint
+Sleep	epd1in54.cpp	/^void Epd::Sleep() {$/;"	f	class:Epd
+SpiTransfer	epdif.cpp	/^void EpdIf::SpiTransfer(unsigned char data) {$/;"	f	class:EpdIf
+TEMPERATURE_SENSOR_CONTROL	include/epd1in54.h	44;"	d
+TERMINATE_FRAME_READ_WRITE	include/epd1in54.h	58;"	d
+UNCOLORED	main.cpp	41;"	d	file:
+WRITE_LUT_REGISTER	include/epd1in54.h	50;"	d
+WRITE_RAM	include/epd1in54.h	48;"	d
+WRITE_VCOM_REGISTER	include/epd1in54.h	49;"	d
+Width	include/fonts.h	/^  uint16_t Width;$/;"	m	struct:_tFont
+__FONTS_H	include/fonts.h	40;"	d
+_tFont	include/fonts.h	/^typedef struct _tFont$/;"	s
+app_main	main.cpp	/^extern "C" void app_main()$/;"	f
+bus_config	include/epdif.h	/^    spi_bus_config_t bus_config;$/;"	m	class:EpdIf
+cs_pin	include/epd1in54.h	/^    unsigned int cs_pin;$/;"	m	class:Epd
+dc_pin	include/epd1in54.h	/^    unsigned int dc_pin;$/;"	m	class:Epd
+dev_config	include/epdif.h	/^    spi_device_interface_config_t dev_config;$/;"	m	class:EpdIf
+handle	include/epdif.h	/^    spi_device_handle_t handle;$/;"	m	class:EpdIf
+height	include/epd1in54.h	/^    int height;$/;"	m	class:Epd
+height	include/epdpaint.h	/^    int height;$/;"	m	class:Paint
+image	include/epdpaint.h	/^    unsigned char* image;$/;"	m	class:Paint
+lut	include/epd1in54.h	/^    const unsigned char* lut;$/;"	m	class:Epd
+lut_full_update	epd1in54.cpp	/^const unsigned char lut_full_update[] =$/;"	v
+lut_partial_update	epd1in54.cpp	/^const unsigned char lut_partial_update[] =$/;"	v
+rotate	include/epdpaint.h	/^    int rotate;$/;"	m	class:Paint
+sFONT	include/fonts.h	/^} sFONT;$/;"	t	typeref:struct:_tFont
+table	include/fonts.h	/^  const uint8_t *table;$/;"	m	struct:_tFont
+trans_desc	include/epdif.h	/^    spi_transaction_t trans_desc;$/;"	m	class:EpdIf
+width	include/epd1in54.h	/^    int width;$/;"	m	class:Epd
+width	include/epdpaint.h	/^    int width;$/;"	m	class:Paint
+~Epd	epd1in54.cpp	/^Epd::~Epd() {$/;"	f	class:Epd
+~EpdIf	epdif.cpp	/^EpdIf::~EpdIf() {$/;"	f	class:EpdIf
+~Paint	epdpaint.cpp	/^Paint::~Paint() {$/;"	f	class:Paint

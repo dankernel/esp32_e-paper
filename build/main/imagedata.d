@@ -1,5 +1,5 @@
-imagedata.o: /home/ubuntu/esp32/backup/main/imagedata.cpp \
- /home/ubuntu/esp32/backup/main/include/imagedata.h
+imagedata.o: /home/dkdk/esp32_e-paper/main/imagedata.cpp \
+ /home/dkdk/esp32_e-paper/main/include/imagedata.h
 
-/home/ubuntu/esp32/backup/main/include/imagedata.h:
-/home/ubuntu/esp32/backup/main/./imagedata.cpp:
+/home/dkdk/esp32_e-paper/main/include/imagedata.h:
+/home/dkdk/esp32_e-paper/main/./imagedata.cpp:

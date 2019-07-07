@@ -45,10 +45,10 @@
 class EpdIf {
 
   private:
-    spi_bus_config_t bus_config;
-    spi_device_handle_t handle;
-    spi_device_interface_config_t dev_config;
-    spi_transaction_t trans_desc;
+    spi_bus_config_t bus_config = {0};
+    spi_device_handle_t handle = {0};
+    spi_device_interface_config_t dev_config ={0} ;
+    spi_transaction_t trans_desc = {0};
 
   public:
     EpdIf(void);

@@ -77,8 +77,10 @@ int EpdIf::IfInit(void) {
 	this->bus_config.miso_io_num = -1; // MISO
 	this->bus_config.quadwp_io_num = -1; // Not used
 	this->bus_config.quadhd_io_num = -1; // Not used
+	// this->bus_config.intr_flags = 1;
 	ESP_LOGI("DKDK", "... Initializing bus.");
-	ESP_ERROR_CHECK(spi_bus_initialize(HSPI_HOST, &this->bus_config, 0));
+	ESP_ERROR_CHECK(spi_bus_initialize(HSPI_HOST, &this->bus_config, 1));
+	ESP_LOGI("DKDK", "... Initializing bus Ok");
 
 	// SPI config
 	this->dev_config.address_bits = 0;

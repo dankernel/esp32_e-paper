@@ -1,189 +1,36 @@
 port/esp_hardware.o: \
- /home/ubuntu/esp32/esp-idf/components/mbedtls/port/esp_hardware.c \
- /home/ubuntu/esp32/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/ubuntu/esp32/backup/build/include/sdkconfig.h \
- /home/ubuntu/esp32/esp-idf/components/mbedtls/port/include/esp_mem.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/stdlib.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/machine/ieeefp.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/_ansi.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/newlib.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/sys/config.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/sys/features.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/sys/reent.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/_ansi.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/sys/_types.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/machine/_types.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/machine/_default_types.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/sys/lock.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/sys/cdefs.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/machine/stdlib.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/alloca.h \
- /home/ubuntu/esp32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/limits.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/sys/types.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/machine/types.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/sys/sched.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/stdio.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/sys/stdio.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/esp_system.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/stdint.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/esp_err.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/platform_include/assert.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/assert.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/esp_sleep.h \
- /home/ubuntu/esp32/esp-idf/components/driver/include/driver/gpio.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/esp_types.h \
- /home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/gpio_reg.h \
- /home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/esp_assert.h \
- /home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/gpio_struct.h \
- /home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h \
- /home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
- /home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/rom/gpio.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/esp_attr.h \
- /home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/esp_intr_alloc.h \
- /home/ubuntu/esp32/esp-idf/components/soc/include/soc/gpio_periph.h \
- /home/ubuntu/esp32/esp-idf/components/driver/include/driver/touch_pad.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/esp_intr.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/ubuntu/esp32/esp-idf/components/freertos/include/freertos/xtensa_api.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/hal.h \
- /home/ubuntu/esp32/esp-idf/components/freertos/include/freertos/xtensa_context.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/config/tie.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/corebits.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/config/system.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/config/core.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
- /home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/touch_channel.h
+ /home/dkdk/esp/esp-idf/components/mbedtls/port/esp_hardware.c \
+ /home/dkdk/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
+ /home/dkdk/esp32_e-paper/build/include/sdkconfig.h \
+ /home/dkdk/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
+ /home/dkdk/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
+ /home/dkdk/esp/esp-idf/components/esp_common/include/esp_system.h \
+ /home/dkdk/esp/esp-idf/components/esp_common/include/esp_err.h \
+ /home/dkdk/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /home/dkdk/esp/esp-idf/components/esp32/include/esp_attr.h \
+ /home/dkdk/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
+ /home/dkdk/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
+ /home/dkdk/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/entropy_poll.h
 
-/home/ubuntu/esp32/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
+/home/dkdk/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/ubuntu/esp32/backup/build/include/sdkconfig.h:
+/home/dkdk/esp32_e-paper/build/include/sdkconfig.h:
 
-/home/ubuntu/esp32/esp-idf/components/mbedtls/port/include/esp_mem.h:
+/home/dkdk/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
 
-/home/ubuntu/esp32/esp-idf/components/newlib/include/stdlib.h:
+/home/dkdk/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 
-/home/ubuntu/esp32/esp-idf/components/newlib/include/machine/ieeefp.h:
+/home/dkdk/esp/esp-idf/components/esp_common/include/esp_system.h:
 
-/home/ubuntu/esp32/esp-idf/components/newlib/include/_ansi.h:
+/home/dkdk/esp/esp-idf/components/esp_common/include/esp_err.h:
 
-/home/ubuntu/esp32/esp-idf/components/newlib/include/newlib.h:
+/home/dkdk/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/ubuntu/esp32/esp-idf/components/newlib/include/sys/config.h:
+/home/dkdk/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/ubuntu/esp32/esp-idf/components/newlib/include/sys/features.h:
+/home/dkdk/esp/esp-idf/components/esp_common/include/esp_bit_defs.h:
 
-/home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+/home/dkdk/esp/esp-idf/components/esp_common/include/esp_idf_version.h:
 
-/home/ubuntu/esp32/esp-idf/components/newlib/include/sys/reent.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/_ansi.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/sys/_types.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/machine/_types.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/machine/_default_types.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/sys/lock.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/sys/cdefs.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/machine/stdlib.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/alloca.h:
-
-/home/ubuntu/esp32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/limits.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/sys/types.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/machine/types.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/sys/sched.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/stdio.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/sys/stdio.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/esp_system.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/stdint.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/sys/_intsup.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/esp_err.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/platform_include/assert.h:
-
-/home/ubuntu/esp32/esp-idf/components/newlib/include/assert.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/esp_sleep.h:
-
-/home/ubuntu/esp32/esp-idf/components/driver/include/driver/gpio.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/esp_types.h:
-
-/home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/gpio_reg.h:
-
-/home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/soc.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/esp_assert.h:
-
-/home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:
-
-/home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h:
-
-/home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h:
-
-/home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/rom/gpio.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/esp_attr.h:
-
-/home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/gpio_pins.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/esp_intr_alloc.h:
-
-/home/ubuntu/esp32/esp-idf/components/soc/include/soc/gpio_periph.h:
-
-/home/ubuntu/esp32/esp-idf/components/driver/include/driver/touch_pad.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/esp_intr.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/rom/ets_sys.h:
-
-/home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/soc.h:
-
-/home/ubuntu/esp32/esp-idf/components/freertos/include/freertos/xtensa_api.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/hal.h:
-
-/home/ubuntu/esp32/esp-idf/components/freertos/include/freertos/xtensa_context.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/config/tie.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/corebits.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/config/system.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/config/core.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/xtensa-versions.h:
-
-/home/ubuntu/esp32/esp-idf/components/esp32/include/xtensa/config/core-matmap.h:
-
-/home/ubuntu/esp32/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
-/home/ubuntu/esp32/esp-idf/components/mbedtls/port/esp_hardware.c:
+/home/dkdk/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/entropy_poll.h:
+/home/dkdk/esp/esp-idf/components/mbedtls/port/esp_hardware.c:

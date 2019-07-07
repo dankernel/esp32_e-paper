@@ -46,13 +46,13 @@ extern "C" void app_main()
 	struct tm* timenow;
 
 	Epd epd;
-  if (epd.IfInit() != 0) {
-	  ESP_LOGI("DKDK", "init failed");
+	if (epd.IfInit() != 0) {
+		ESP_LOGI("DKDK", "init failed");
 		return;
 	}
 
 	if (epd.Init(lut_full_update) != 0) {
-	  ESP_LOGI("DKDK", "init failed");
+		ESP_LOGI("DKDK", "init failed");
 		return;
 	}
 
@@ -60,8 +60,8 @@ extern "C" void app_main()
 
 	Paint paint(frame_buffer, epd.width, epd.height);
 
-  /* For simplicity, the arguments are explicit numerical coordinates */
-  /* Write strings to the buffer */
+	/* For simplicity, the arguments are explicit numerical coordinates */
+	/* Write strings to the buffer */
 	paint.Clear(UNCOLORED);
 	paint.DrawFilledRectangle(0, 0, 200, 50, COLORED);
 	paint.DrawStringAt(25, 10, "Jun Hyung Park", &Font16, UNCOLORED);
@@ -72,18 +72,18 @@ extern "C" void app_main()
 	paint.DrawStringAt(25, 130, "ABC DEF XYZ", &Font16, UNCOLORED);
 
 	/* Draw something to the frame_buffer */
-  epd.SetFrameMemory(paint.GetImage(), 0, 0, paint.GetWidth(), paint.GetHeight());
-  epd.DisplayFrame();
-  epd.SetFrameMemory(paint.GetImage(), 0, 0, paint.GetWidth(), paint.GetHeight());
-  epd.DisplayFrame();
- 
-  epd.DelayMs(2000);
+	epd.SetFrameMemory(paint.GetImage(), 0, 0, paint.GetWidth(), paint.GetHeight());
+	epd.DisplayFrame();
+	epd.SetFrameMemory(paint.GetImage(), 0, 0, paint.GetWidth(), paint.GetHeight());
+	epd.DisplayFrame();
+
+	epd.DelayMs(2000);
 	ESP_LOGI("DKDK", "Print Rect");
 
-  if (epd.Init(lut_partial_update) != 0) {
-    printf("e-Paper init failed\n");
-    return;
-  }
+	if (epd.Init(lut_partial_update) != 0) {
+		printf("e-Paper init failed\n");
+		return;
+	}
 
 	char time_string[] = {'0', '0', ':', '0', '0', '\0'};
 	while (1) {
@@ -96,7 +96,7 @@ extern "C" void app_main()
 
 		paint.SetWidth(100);
 		paint.SetHeight(40);
-	  paint.Clear(UNCOLORED);
+		paint.Clear(UNCOLORED);
 		paint.DrawStringAt(0, 10, time_string, &Font24, COLORED);
 
 		epd.SetFrameMemory(paint.GetImage(), 50, 52, paint.GetWidth(), paint.GetHeight());
@@ -105,7 +105,7 @@ extern "C" void app_main()
 		epd.DisplayFrame();
 
 		epd.DelayMs(500);
-	  ESP_LOGI("DKDK", "Print!");
+		ESP_LOGI("DKDK", "Print!");
 	}
 	// Start App
 	printf("Hello world!\n");
@@ -116,5 +116,5 @@ extern "C" void app_main()
 	fflush(stdout);
 	esp_restart();
 
-  return;
+	return;
 }

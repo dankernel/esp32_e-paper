@@ -1,20 +1,20 @@
-crc32.o: /home/ubuntu/esp32/esp-idf/components/wear_levelling/crc32.cpp \
- /home/ubuntu/esp32/esp-idf/components/wear_levelling/crc32.h \
- /home/ubuntu/esp32/esp-idf/components/esp32/include/rom/crc.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/stdint.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/machine/_default_types.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/sys/features.h \
- /home/ubuntu/esp32/esp-idf/components/newlib/include/sys/_intsup.h
+crc32.o: /home/dkdk/esp/esp-idf/components/wear_levelling/crc32.cpp \
+ /home/dkdk/esp/esp-idf/components/wear_levelling/crc32.h \
+ /home/dkdk/esp/esp-idf/components/esp_rom/include/esp32/rom/crc.h \
+ /home/dkdk/esp/esp-idf/components/newlib/include/stdint.h \
+ /home/dkdk/esp/esp-idf/components/newlib/include/machine/_default_types.h \
+ /home/dkdk/esp/esp-idf/components/newlib/include/sys/features.h \
+ /home/dkdk/esp/esp-idf/components/newlib/include/sys/_intsup.h
 
-/home/ubuntu/esp32/esp-idf/components/wear_levelling/crc32.h:
+/home/dkdk/esp/esp-idf/components/wear_levelling/crc32.h:
 
-/home/ubuntu/esp32/esp-idf/components/esp32/include/rom/crc.h:
+/home/dkdk/esp/esp-idf/components/esp_rom/include/esp32/rom/crc.h:
 
-/home/ubuntu/esp32/esp-idf/components/newlib/include/stdint.h:
+/home/dkdk/esp/esp-idf/components/newlib/include/stdint.h:
 
-/home/ubuntu/esp32/esp-idf/components/newlib/include/machine/_default_types.h:
+/home/dkdk/esp/esp-idf/components/newlib/include/machine/_default_types.h:
 
-/home/ubuntu/esp32/esp-idf/components/newlib/include/sys/features.h:
+/home/dkdk/esp/esp-idf/components/newlib/include/sys/features.h:
 
-/home/ubuntu/esp32/esp-idf/components/newlib/include/sys/_intsup.h:
-/home/ubuntu/esp32/esp-idf/components/wear_levelling/./crc32.cpp:
+/home/dkdk/esp/esp-idf/components/newlib/include/sys/_intsup.h:
+/home/dkdk/esp/esp-idf/components/wear_levelling/./crc32.cpp:
